@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:password_manager_app/bloc/password_bloc.dart';
 import 'package:password_manager_app/screens/main_page.dart';
+import 'package:password_manager_app/screens/onboarding_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,8 +21,8 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: MainPage(index: 0),
-        // home: ProfileScreen()
+        // home: MainPage(index: 0),
+        home: OnboardingScreen(),
       ),
     );
   }

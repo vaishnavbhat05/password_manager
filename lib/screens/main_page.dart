@@ -74,7 +74,7 @@ class MainPageState extends State<MainPage> {
           ],
         ),
       ),
-      body: _pages[_selectedIndex], // Always show the selected page
+      body: _pages[_selectedIndex],
     );
   }
 }

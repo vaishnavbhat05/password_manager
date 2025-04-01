@@ -120,7 +120,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
               child: InkWell(
                 onTap: () {
                   setState(() {
-                    _isDetailsVisible = !_isDetailsVisible; // Toggle visibility
+                    _isDetailsVisible = !_isDetailsVisible;
                   });
                 },
                 child: Row(

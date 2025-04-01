@@ -117,11 +117,11 @@ class _AnalysisScreenState extends State<AnalysisScreen> {
                               percent: totalCount > 0 ? safeCount / totalCount : 0,
                               lineWidth: 10,
                               backgroundColor: Colors.black,
-                              progressColor: Colors.white, // Safe passwords shown in green
+                              progressColor: Colors.white,
                               circularStrokeCap: CircularStrokeCap.round,
                             ),
                             Text(
-                              "${securePercentage.toStringAsFixed(0)}%", // Show percentage without decimal
+                              "${securePercentage.toStringAsFixed(0)}%",
                               style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                             ),
                           ],
